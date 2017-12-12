@@ -29,6 +29,7 @@
 
 vid:VID_TOC_20 rdf:type skos:Concept; 
  skos:prefLabel "Éléments de chronologie"@fr; 
+ skos:prefLabel "Élements of chronology"@en; 
  skos:narrower vid:VID_TOC_21;
  skos:narrower vid:VID_TOC_22;
  skos:narrower vid:VID_TOC_23;
@@ -39,6 +40,7 @@ vid:VID_TOC_20 rdf:type skos:Concept;
 
 vid:VID_TOC_16 rdf:type skos:Concept; 
  skos:prefLabel "Le sceau et sa valeur diplomatique et juridique"@fr; 
+ skos:prefLabel "Seals and their diplomatic and juridical value"@en; 
  skos:narrower vid:VID_TOC_17;
  skos:narrower vid:VID_TOC_18;
  skos:narrower vid:VID_TOC_19;
@@ -47,6 +49,7 @@ vid:VID_TOC_16 rdf:type skos:Concept;
 
 vid:VID_TOC_15 rdf:type skos:Concept; 
  skos:prefLabel "Nature juridique des actes"@fr; 
+ skos:prefLabel "Juridical nature of acts"@en; 
  skos:narrower vid:VID_424;
  skos:narrower vid:VID_425;
  skos:narrower vid:VID_428;
@@ -115,6 +118,7 @@ vid:VID_TOC_15 rdf:type skos:Concept;
 
 vid:VID_TOC_13 rdf:type skos:Concept; 
  skos:prefLabel "Nature diplomatique des actes"@fr; 
+ skos:prefLabel "Diplomatic nature of acts"@en; 
  skos:narrower vid:VID_TOC_14;
  skos:narrower vid:VID_382;
  skos:narrower vid:VID_383;
@@ -159,7 +163,8 @@ vid:VID_TOC_13 rdf:type skos:Concept;
  skos:narrower vid:VID_418 . 
 
 vid:VID_TOC_8 rdf:type skos:Concept; 
- skos:prefLabel "L'élaboration des actes"@fr; 
+ skos:prefLabel "L'élaboration des actes"@fr;
+ skos:prefLabel "The elaboration of acts"@en; 
  skos:narrower vid:VID_TOC_10;
  skos:narrower vid:VID_TOC_11;
  skos:narrower vid:VID_TOC_12;
@@ -167,12 +172,14 @@ vid:VID_TOC_8 rdf:type skos:Concept;
 
 vid:VID_TOC_3 rdf:type skos:Concept; 
  skos:prefLabel "La forme des Actes"@fr; 
+ skos:prefLabel "The form of acts"@en; 
  skos:narrower vid:VID_TOC_4;
  skos:narrower vid:VID_TOC_5;
  skos:narrower vid:VID_131 . 
 
 vid:VID_TOC_2 rdf:type skos:Concept; 
  skos:prefLabel "La Tradition des Actes"@fr; 
+ skos:prefLabel "The tradition of acts"@en; 
  skos:narrower vid:VID_53;
  skos:narrower vid:VID_71;
  skos:narrower vid:VID_24;
@@ -283,6 +290,7 @@ vid:VID_TOC_2 rdf:type skos:Concept;
 
 vid:VID_TOC_27 rdf:type skos:Concept; 
  skos:prefLabel "Cycle solaire et cycle lunaire"@fr; 
+ skos:prefLabel "Solar and lunar cycles"@en; 
  skos:narrower vid:VID_631;
  skos:narrower vid:VID_632;
  skos:narrower vid:VID_633;
@@ -297,6 +305,7 @@ vid:VID_TOC_27 rdf:type skos:Concept;
 
 vid:VID_TOC_21 rdf:type skos:Concept; 
  skos:prefLabel "Notions générales"@fr; 
+ skos:prefLabel "General concepts"@fr; 
  skos:narrower vid:VID_560;
  skos:narrower vid:VID_563;
  skos:narrower vid:VID_556;
@@ -313,6 +322,7 @@ vid:VID_TOC_21 rdf:type skos:Concept;
 
 vid:VID_TOC_22 rdf:type skos:Concept; 
  skos:prefLabel "Le compte des années: les ères"@fr; 
+ skos:prefLabel "The reckoning of years: the eras"@en; 
  skos:narrower vid:VID_569;
  skos:narrower vid:VID_570;
  skos:narrower vid:VID_572;
@@ -325,7 +335,8 @@ vid:VID_TOC_22 rdf:type skos:Concept;
  skos:narrower vid:VID_571 . 
 
 vid:VID_TOC_23 rdf:type skos:Concept; 
- skos:prefLabel "Les style chronologiques"@fr; 
+ skos:prefLabel "Les style chronologiques"@fr;
+ skos:prefLabel "Chronological Styles"@en; 
  skos:narrower vid:VID_579;
  skos:narrower vid:VID_580;
  skos:narrower vid:VID_581;
@@ -340,6 +351,7 @@ vid:VID_TOC_23 rdf:type skos:Concept;
 
 vid:VID_TOC_24 rdf:type skos:Concept; 
  skos:prefLabel "L'indiction"@fr; 
+ skos:prefLabel "The Indiction"@en; 
  skos:narrower vid:VID_592;
  skos:narrower vid:VID_593;
  skos:narrower vid:VID_594;
@@ -350,6 +362,7 @@ vid:VID_TOC_24 rdf:type skos:Concept;
 
 vid:VID_TOC_25 rdf:type skos:Concept; 
  skos:prefLabel "Le calendrier et le compte des jours"@fr; 
+ skos:prefLabel "The calendar and the counting of days"@en; 
  skos:narrower vid:VID_597;
  skos:narrower vid:VID_598;
  skos:narrower vid:VID_599;
@@ -367,6 +380,8 @@ vid:VID_TOC_25 rdf:type skos:Concept;
 
 vid:VID_TOC_26 rdf:type skos:Concept; 
  skos:prefLabel "Le calendries liturgique"@fr; 
+ skos:prefLabel "Liturgical calendars"@en; 
+ skos:altLabel "Ecclesiastical calendars"@en
  skos:narrower vid:VID_620c;
  skos:narrower vid:VID_620d;
  skos:narrower vid:VID_611;
@@ -396,6 +411,7 @@ vid:VID_TOC_26 rdf:type skos:Concept;
 
 vid:VID_TOC_19 rdf:type skos:Concept; 
  skos:prefLabel "Modes d'apposition du sceau"@fr; 
+ skos:prefLabel "Methods of sealing"@fen; 
  skos:narrower vid:VID_535;
  skos:narrower vid:VID_536;
  skos:narrower vid:VID_537;
@@ -428,6 +444,7 @@ vid:VID_TOC_19 rdf:type skos:Concept;
 
 vid:VID_TOC_18 rdf:type skos:Concept; 
  skos:prefLabel "Nature diplomatique du sceau"@fr; 
+ skos:prefLabel "Diplomatic character of seals"@en; 
  skos:narrower vid:VID_515;
  skos:narrower vid:VID_516;
  skos:narrower vid:VID_517;
@@ -451,6 +468,7 @@ vid:VID_TOC_18 rdf:type skos:Concept;
 
 vid:VID_TOC_17 rdf:type skos:Concept; 
  skos:prefLabel "Le sceau: nature, matière et forme"@fr; 
+ skos:prefLabel "The seal: character, material, and form"@en; 
  skos:narrower vid:VID_513;
  skos:narrower vid:VID_514;
  skos:narrower vid:VID_504;
@@ -465,6 +483,7 @@ vid:VID_TOC_17 rdf:type skos:Concept;
 
 vid:VID_TOC_4 rdf:type skos:Concept; 
  skos:prefLabel "Caractères externes"@fr; 
+ skos:prefLabel "External characteristics"@en; 
  skos:narrower vid:VID_132;
  skos:narrower vid:VID_133;
  skos:narrower vid:VID_136;
@@ -499,6 +518,7 @@ vid:VID_TOC_4 rdf:type skos:Concept;
 
 vid:VID_TOC_14 rdf:type skos:Concept; 
  skos:prefLabel "Classification des lettres"@fr; 
+ skos:prefLabel "Classification of letters"@en; 
  skos:narrower vid:VID_423-2-3;
  skos:narrower vid:VID_423-2-2;
  skos:narrower vid:VID_423-2;
@@ -517,13 +537,15 @@ vid:VID_TOC_14 rdf:type skos:Concept;
  skos:narrower vid:VID_421-3-1-1 . 
 
 vid:VID_TOC_5 rdf:type skos:Concept; 
- skos:prefLabel "Caractères internes"@fr; 
+ skos:prefLabel "Caractères internes"@fr;
+ skos:prefLabel "Internal characteristics"@en; 
  skos:narrower vid:VID_TOC_6;
  skos:narrower vid:VID_TOC_7;
  skos:narrower vid:VID_162 . 
 
 vid:VID_TOC_12 rdf:type skos:Concept; 
  skos:prefLabel "Procédure d'expédition"@fr; 
+ skos:prefLabel "Issuing"@en; 
  skos:narrower vid:VID_326;
  skos:narrower vid:VID_333;
  skos:narrower vid:VID_365;
@@ -598,6 +620,7 @@ vid:VID_TOC_12 rdf:type skos:Concept;
 
 vid:VID_TOC_11 rdf:type skos:Concept; 
  skos:prefLabel "Les organes d'élaboration des actes privés"@fr; 
+ skos:prefLabel "The organs of elaboration of private acts"@en; 
  skos:narrower vid:VID_296;
  skos:narrower vid:VID_292;
  skos:narrower vid:VID_293;
@@ -619,6 +642,7 @@ vid:VID_TOC_11 rdf:type skos:Concept;
 
 vid:VID_TOC_10 rdf:type skos:Concept; 
  skos:prefLabel "Les chancelleries et les bureaux d'écriture"@fr; 
+ skos:prefLabel "Chancelleries and offices of writing"@en; 
  skos:narrower vid:VID_273;
  skos:narrower vid:VID_274;
  skos:narrower vid:VID_278;
@@ -647,7 +671,8 @@ vid:VID_TOC_10 rdf:type skos:Concept;
  skos:narrower vid:VID_287 . 
 
 vid:VID_TOC_6 rdf:type skos:Concept; 
- skos:prefLabel "Caractère rédactionnels des actes"@fr; 
+ skos:prefLabel "Caractère rédactionnels des actes"@fr;
+ skos:prefLabel "Editorial nature of acts"@en; 
  skos:narrower vid:VID_164;
  skos:narrower vid:VID_163;
  skos:narrower vid:VID_165;
@@ -667,6 +692,7 @@ vid:VID_TOC_6 rdf:type skos:Concept;
 
 vid:VID_TOC_7 rdf:type skos:Concept; 
  skos:prefLabel "Les éléments du discours diplomatique"@fr; 
+ skos:prefLabel "The elements of diplomatic discourse"@en; 
  skos:narrower vid:VID_246;
  skos:narrower vid:VID_181;
  skos:narrower vid:VID_179;
