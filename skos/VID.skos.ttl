@@ -29,7 +29,7 @@
 
 vid:VID_TOC_20 rdf:type skos:Concept; 
  skos:prefLabel "Éléments de chronologie"@fr; 
- skos:prefLabel "Élements of chronology"@en; 
+ skos:prefLabel "Elements of chronology"@en; 
  skos:narrower vid:VID_TOC_21;
  skos:narrower vid:VID_TOC_22;
  skos:narrower vid:VID_TOC_23;
@@ -381,7 +381,7 @@ vid:VID_TOC_25 rdf:type skos:Concept;
 vid:VID_TOC_26 rdf:type skos:Concept; 
  skos:prefLabel "Le calendries liturgique"@fr; 
  skos:prefLabel "Liturgical calendars"@en; 
- skos:altLabel "Ecclesiastical calendars"@en
+ skos:altLabel "Ecclesiastical calendars"@en;
  skos:narrower vid:VID_620c;
  skos:narrower vid:VID_620d;
  skos:narrower vid:VID_611;
@@ -411,7 +411,7 @@ vid:VID_TOC_26 rdf:type skos:Concept;
 
 vid:VID_TOC_19 rdf:type skos:Concept; 
  skos:prefLabel "Modes d'apposition du sceau"@fr; 
- skos:prefLabel "Methods of sealing"@fen; 
+ skos:prefLabel "Methods of sealing"@en; 
  skos:narrower vid:VID_535;
  skos:narrower vid:VID_536;
  skos:narrower vid:VID_537;
